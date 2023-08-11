@@ -1,0 +1,50 @@
+.conHeaderPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    height: 100px;
+    width: 1200px;
+    margin-bottom: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    z-index: 99;
+    border-radius: 10px;
+  }
+  
+  .headLeftLogo img {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .headCenter {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .headCenter img {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headCenter p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .headRightLogo img {
+    width: 120px;
+    height: 80px;
+  }
+  

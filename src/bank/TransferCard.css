@@ -1,0 +1,139 @@
+.trasfer {
+    width: 650px;
+    height: 450px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .upCartTrasfer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .labelCartTrasfer {
+    background-color: darkred;
+    width: 130px;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+  }
+  .labelCartTrasfer p {
+    color: white;
+    font-size: 1rem;
+    padding-top: 6px;
+  }
+  .timerTrasfer {
+    padding-top: 5px;
+    width: 250px;
+    height: 35px;
+  }
+  .conCartTrasfer {
+    width: 650px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .txtsTrasfer {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 15px;
+  }
+  .titlesTrasfer {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .desTrasfer {
+    margin-top: 5px;
+    color: rgb(116, 115, 115);
+    font-size: 10px;
+    text-align: right;
+  }
+  
+  .inputsTrasfer {
+    margin-right: 20px;
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputsTrasfer input {
+    margin-bottom: 25px;
+  }
+  
+  .bigInputTrasfer {
+    border-radius: 30px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 25px;
+  }
+  .smallInputTrasfer {
+    border-radius: 30px;
+    border: 1px solid gray;
+    width: 60px;
+    height: 25px;
+    margin: 0 5px;
+    text-align: center;
+  }
+  
+  .imgLogoLeftTrasfer{
+    height: 250px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .imgLogoLeftTrasfer img {
+    height: 30px;
+    width: 40px;
+  }
+  
+  .conInpDateTrasfer {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .downCartTrasfer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .bigBtnTrasfer {
+    border-radius: 30px;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 12px;
+    background: linear-gradient(109.6deg, #00cc82 11.2%, rgb(58, 181, 46) 91.7%);
+  }
+  
+  .smallBtnTrasfer {
+    border-radius: 30px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 3px;
+    background-color: #ffcc66;
+    color: white;
+    font-size: 12px;
+  }
+  

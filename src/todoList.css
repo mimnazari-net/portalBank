@@ -1,0 +1,116 @@
+.containerTodoLIst {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .upComponents {
+    width: 1000px;
+    height: 100px;
+    background-color: #444444;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .upComponents p {
+    color: white;
+    margin: 0px 20px;
+  }
+  
+  .uptitle {
+    font-size: 2rem;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .inputTitle {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+  
+    border: solid 3px #ff9900;
+  }
+  .inputDesc {
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid 3px #ff9900;
+  }
+  
+  .upComponents button {
+    background-color: #ff9900;
+    color: white;
+    font-size: 0.9rem;
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  .conListOfTask {
+    margin-top: 20px;
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .conItemes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .itemes {
+    background-color: #444444;
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .txts{
+      width: 800px;
+  }
+  .btns button{
+      background-color: #ff9900;
+    color: white;
+    font-size: 0.9rem;
+    height: 40px;
+    width: 50px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  .titleItemTask {
+    font-size: 2rem;
+    color: #ff9900;
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .descItemTask {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .counter {
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  

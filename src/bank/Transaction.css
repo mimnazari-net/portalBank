@@ -1,0 +1,68 @@
+.tarakonesh {
+    width: 650px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  .upPageTarakonesh {
+    margin-bottom: 20px;
+  }
+  
+  .contarakonesh {
+    width: 650;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+  .upConTarakonesh {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .labelCartTarakonesh {
+    background-color: darkred;
+    width: 130px;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .labelCartTarakonesh p {
+    color: white;
+    font-size: 1rem;
+    padding-top: 6px;
+  }
+  .showItems{
+    width: 1100px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tarakoneshItem {
+    display: flex;
+    width: 260px;
+    height: 140px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: darkred;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .tarakoneshItem p {
+    padding-top:5px;
+    padding-right: 10px;
+    color: white;
+  }
+  

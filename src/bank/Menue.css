@@ -1,0 +1,21 @@
+.conmenue {
+    margin: 10px 50px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .conmenueLink {
+    color: #df0505;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .conmenue a:hover {
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #4d4d4d;
+  }
+  
